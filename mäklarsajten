@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mäklarbyråsystem</title>
+</head>
+
+<body>
+  <header>
+    <h1>Mäklarbyråsystem</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showHomePage()">Hem</a></li>
+      <li><a href="#" onclick="showContactForm()">Kontakt</a></li>
+      <li><a href="#" onclick="showSellerForm()">Sälj din bostad</a></li>
+      <li><a href="#" onclick="showLogin()">Logga in</a></li>
+      <li><a href="#" onclick="showRealtorView()">Mäklarvy</a></li>
+      <li><a href="#" onclick="showPropertyList()">Bostadslista</a></li>
+    </ul>
+  </nav>
+  <main id="main-content">
+
+  </main>
+  <footer>
+    <p>&copy; 2023 Mäklarbyråsystem</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+// Ditt JavaScript för att hantera vyväxling och funktionalitet här
+
+function showHomePage() {
+// Implementera logik för startsidan här
+}
+
+function showContactForm() {
+// Implementera logik för kontaktformulärsvyn här
+}
+
+function showSellerForm() {
+// Implementera logik för säljformulärsvyn här
+}
+
+function showLogin() {
+// Implementera logik för inloggningsvyn här
+}
+
+function showRealtorView() {
+// Implementera logik för mäklarvyn här
+}
+
+function showPropertyList() {
+// Implementera logik för bostadslistesvyn här
+}
+
+// Övrig funktionalitet och datahantering
+/* Styla din webbplats här */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #333;
+color: white;
+padding: 10px;
+text-align: center;
+}
+
+nav {
+background-color: #eee;
+padding: 10px;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: space-around;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+a {
+text-decoration: none;
+color: #333;
+}
+
+main {
+padding: 20px;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
